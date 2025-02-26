@@ -1,4 +1,5 @@
 // directives/lazy.js
+// 提升了网页性能和用户体验。只在需要的时候加载图片资源，可以减少初始页面加载时间，节省带宽。
 import type { DirectiveBinding } from 'vue';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 

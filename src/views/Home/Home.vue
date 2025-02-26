@@ -7,7 +7,7 @@
     </div>
     <!-- 搜索 -->
     <div class="search flex items-center  px-4 text-sm py-4 fixed top-1 left-0 z-[10]">
-      <div class="title font-bold  text-gray-900 text-lg w-[6.5rem] text-center font-serif mr-0.5 bg-gray-200 rounded-full bg-opacity-50">抖音商城</div>
+      <div class="title font-bold  text-gray-900 text-lg w-[6.5rem] text-center font-serif mr-0.5 bg-gray-200 rounded-full bg-opacity-50">TikMall</div>
       <van-search v-model="searchField" placeholder="请输入搜索关键字" show-action shape="round" background="transparent" class="w-full rounded-full ">
         <template #left-icon>
           <van-icon name="search" color="#ff6a00" size="1.25rem"/>
@@ -27,7 +27,7 @@
     </div>
    
     <!-- 主体 -->
-    <main class="w-full pt-[4.5rem] z-[-50] flex flex-col space-y-1">
+    <main class="w-full pt-[4.6rem] z-[-50] flex flex-col space-y-1">
       <!-- 图标栏 -->
       <header class="w-[calc(100vw-2px)] justify-center min-h-18 rounded-2xl p-2 shadow-md self-center bg-white bg-opacity-76 border">
         <section class="w-full topbar flex justify-around my-[0.5rem]">
@@ -59,7 +59,7 @@
               </div>
               <div class="text-center flex items-center text-white rounded-full px-1 py-1">
                 <div class="font-bold mr-1 text-black">￥{{item.price}}</div>
-                <div class="bg-red-500 text-xs rounded-full px-1.5 py-0.5">首单</div>
+                <div class="bg-red-500 text-[0.625rem] rounded-full px-1.5 py-0.5">首单</div>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@
         </div>
       </section>
 
-      <!-- 商品 -->
+      <!-- 商品展示 -->
       <section>
         <van-tabs v-model:active="active" sticky offset-top=4.5rem swipeable class="">
           <van-tab v-for='(items) in bottomItemState' :key='items.title' :title="items.title">

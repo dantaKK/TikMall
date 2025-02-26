@@ -72,28 +72,28 @@ export const useinformationStore = defineStore('information', () => {
     [
         {  
            
-            nickName: "￥19.9",
-            title: "吃饭碗家用高颜值陶瓷",
-            img: "https://gw.alicdn.com/imgextra/i1/2215403086116/O1CN01ojUZkE1v3BGAGTZiK_!!0-item_pic.jpg",
+            nickName: "￥10.35",
+            title: "遮阳太阳晴雨伞折叠全自动",
+            img: "https://img.alicdn.com/bao/uploaded/i4/1650442759/O1CN018mZ0EX1WFfUsNYfMv_!!1650442759.jpg_460x460q90.jpg_.webp",
 
-            loveNum: 9899
+            loveNum: 10033
         },
         {
             nickName: "￥5.01",
-            title: "心相印茶语抽纸整箱20包",
-            img: "https://gw.alicdn.com/imgextra/i2/2200641850090/O1CN01JBP5e31CXGWkT1DB3_!!0-item_pic.jpg",
-            loveNum: 4750
+            title: "娃哈哈AD钙奶220ml酸奶营养早餐草莓味饮料饮品",
+            img: "https://img.alicdn.com/bao/uploaded/i3/2380039536/O1CN01noFkAV2KJXuDW4OZ5_!!4611686018427381104-0-item_pic.jpg_460x460q90.jpg_.webp",
+            loveNum: 47250
         },
         {
             nickName: "￥249",
-            title: "漫步者G2耳机",
-            img: "	https://gju4.alicdn.com/tps/O1CN01GwvfYW24q29i0Fl32_!!6000000007441-0-yinhe.jpg",
-            loveNum: 9865
+            title: "境外pro4代蓝牙耳机无线高音质运动迷你",
+            img: "	https://img.alicdn.com/bao/uploaded/i3/2767604966/O1CN01w2PS5X1mYTt0KfPJc_!!2767604966.jpg_460x460q90.jpg_.webp",
+            loveNum: 98625
         },
         {
-            nickName: "￥17.5",
-            title: "多功能小电锅网红同款家用小电饭锅",
-            img: "https://gw.alicdn.com/imgextra/i2/2216556586406/O1CN01f6P9FD1xC0Dq2oeHN_!!2216556586406.jpg",
+            nickName: "￥478",
+            title: "复古工业风集装箱收银台奶茶店铺餐厅",
+            img: "https://img.alicdn.com/bao/uploaded///asearch.alicdn.com/bao/uploaded/O1CN01ogzAsw1JXuXmgtUOa_!!3252731039.jpg_460x460q90.jpg_.webp",
             loveNum: 4315
         },
         {

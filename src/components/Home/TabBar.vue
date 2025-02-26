@@ -5,14 +5,21 @@
   active-color="#ee0a24"
   >
  
-    <van-tabbar-item icon="wap-home" to="/home">首页</van-tabbar-item>
+    <van-tabbar-item  to="/home">  
+      <template #icon>
+        <van-icon class="iconfont" class-prefix="icon" name="shouye" />
+      </template>首页
+    </van-tabbar-item>
     <van-tabbar-item to="/assistant">
       <template #icon>
         <van-icon class="iconfont" class-prefix="icon" name="zhihuicaigou" />
       </template>助手
     </van-tabbar-item>
     <van-tabbar-item icon="chat-o"  badge="78" to="/information">消息</van-tabbar-item> 
-    <van-tabbar-item icon="manager" dot to="/my">我</van-tabbar-item>
+    <van-tabbar-item  dot to="/my">
+      <template #icon>
+        <van-icon class="iconfont" class-prefix="icon" name="wode" />
+      </template>我的</van-tabbar-item>
     
   </van-tabbar>
 </template>

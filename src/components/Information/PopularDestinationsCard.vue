@@ -1,7 +1,7 @@
 <template>
   <van-swipe :autoplay="2500" lazy-render relative class="mx-1  scrollbar-hide rounded-2xl ring-offset-2 shadow-white shadow-2xl border border-white">
     <van-swipe-item v-for="(item, index) in items" :key="index">
-      <img :src="item.img" class="w-full h-[15rem] center-fit" />
+      <img :src="item.img" class="w-full h-[16rem] center-fit" />
       <div
         class="item-info text-white p-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center"
       >

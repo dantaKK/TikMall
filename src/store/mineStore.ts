@@ -62,23 +62,23 @@ export const useMineStore = defineStore('mine', () => {
         {
             title: "抢优惠卷",
             icon: "diyongquan",
-            color: "#B3E5FC"
+            color: "#2196F3"
         },
         {
             title: "抽红包",
             icon: "ziyuan115",
-            color: "#FF4081"
+            color: "#8899FB"
         },
         {
             title: "全场一元",
             icon: "yiyuangou",
-            color: "#03A9F4"
+            color: "#FF9800"
             
         },
         {
             title: "邀请好友",
             icon: "yaoqinghaoyou",
-            color: "#B3E5FC"
+            color: "#2196F3"
         },
         {
             title: "赚钱",
@@ -91,6 +91,19 @@ export const useMineStore = defineStore('mine', () => {
 
     const prodects = ref<prodects[]>([
         
+            {  
+                
+                nickName: "￥1480",
+                title: "轻奢沙发椅单人沙发客厅简约现代转椅",
+                img: "https://img.alicdn.com/bao/uploaded///asearch.alicdn.com/bao/uploaded/O1CN01Mdm3Uv1JNNA8nvNrs_!!3873581016.jpg_460x460q90.jpg_.webp",
+                loveNum: 9999
+            },
+            {
+                nickName: "￥247.93",
+                title: "卡贝拉篮厨房橱柜碗篮304不锈钢双层",
+                img: "https://img.alicdn.com/bao/uploaded///asearch.alicdn.com/bao/uploaded/O1CN01B9ZLdX1OgDmDJMpXC_!!297041734.jpg_460x460q90.jpg_.webp",
+                loveNum: 10233
+            },
             {  
                
                 nickName: "￥19.9",
@@ -116,7 +129,18 @@ export const useMineStore = defineStore('mine', () => {
                 img: "https://gw.alicdn.com/imgextra/i2/2216556586406/O1CN01f6P9FD1xC0Dq2oeHN_!!2216556586406.jpg",
                 loveNum: 4315
             },
-         
+            {
+                nickName: "￥5.01",
+                title: "娃哈哈AD钙奶220ml酸奶营养早餐草莓味饮料饮品",
+                img: "https://img.alicdn.com/bao/uploaded/i3/2380039536/O1CN01noFkAV2KJXuDW4OZ5_!!4611686018427381104-0-item_pic.jpg_460x460q90.jpg_.webp",
+                loveNum: 47250
+            },
+            {
+                nickName: "￥249",
+                title: "境外pro4代蓝牙耳机无线高音质运动迷你",
+                img: "	https://img.alicdn.com/bao/uploaded/i3/2767604966/O1CN01w2PS5X1mYTt0KfPJc_!!2767604966.jpg_460x460q90.jpg_.webp",
+                loveNum: 98625
+            },
            
           
         

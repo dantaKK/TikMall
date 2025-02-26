@@ -2,7 +2,7 @@
     <div class="start">
       <div class="welcome">欢迎使用AI智能购物</div>
       <div class="title">
-        <h1 data-text="Douyin">Douyin</h1>
+        <h1 data-text="TikMall">TikMall</h1>
       </div>
     </div>
   </template>

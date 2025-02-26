@@ -4,12 +4,7 @@ const options = {
     threshold: 0 // 当目标元素10%的部分进入视窗时触发回调
 };
 // export function useIntersectionObserver;
-const observer = createIntersectionObserver();
-export function useIntersectionObserver() {
-    return {
-        observer,
-    };
-}
+
 function createIntersectionObserver() {
     const observer = new IntersectionObserver((entries) => {
 
@@ -25,4 +20,11 @@ function createIntersectionObserver() {
 }
 function loadImage(targetImage: HTMLImageElement) {
     targetImage.src = targetImage.dataset?.src || "";
+}
+
+const observer = createIntersectionObserver();
+export function useIntersectionObserver() {
+    return {
+        observer,
+    };
 }

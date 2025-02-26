@@ -1,7 +1,7 @@
 <template>
    
 <div class="information ">
-  <!-- 头部客服 -->
+  <!-- 头部 -->
   <div
         class="informationPage container h-[3rem] relative shadow-sm
          bg-[url('https://tse4-mm.cn.bing.net/th/id/OIP-C.XbACS9jWZtP1c8Wyv_0omwAAAA?w=198&h=315&c=7&r=0&o=5&dpr=2.2&pid=1.7')] 
@@ -47,10 +47,10 @@
    
   </div>
     
-   <!-- 旅游推荐  PopularDestinations-->  
+   <!-- 轮播图 商品推荐  -->  
    <section>
-        <div class="flex justify-between items-center px-3 text-sm text-black">
-          <h2 class="title font-bold text-lg">热门商品</h2>
+        <div class="flex justify-between items-center px-3 text-sm text-black  mt-[1rem]">
+          <h2 class="title font-bold text-lg ">热门商品</h2>
           <span
             class="flex flex-row items-center justify-center text-xs "
           >

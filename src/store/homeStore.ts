@@ -14,34 +14,34 @@ export const useHomeStore = defineStore('home', () => {
         {
             title: "充值中心",
             icon: "gold-coin",
-            color: "#ffc001",
+            color: "#FFC107",
         },
         {
             title: "天天抽红包",
             icon: "invitation",
-            color: "#ff4444",
+            color: "#FF5722",
         },
         {
             title: "券红包",
             icon: "coupon",
-            color: "#FF69B4",
+            color: "#9C27B0",
         },
         
         {
             title: "试用领取",
             icon: "gift",
-            color: "#ff4444",
+            color: "#FF9800",
              badge: '试大牌'
         },
         {
             title: "抖音超市",
             icon: "shopping-cart",
-            color: "#00FF7F",
+            color: "#00BCD4",
         },
         {
             title:"足迹",
             icon:"star",
-            color:"#00FF7F"
+            color:"#FFC107"
            
         }
     ])
