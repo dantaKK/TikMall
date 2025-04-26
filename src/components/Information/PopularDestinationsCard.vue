@@ -15,9 +15,7 @@
 </template>
 
 <script setup lang="ts">
-
-import { defineProps } from "vue";
-import { ref, onMounted } from "vue";
+import { defineProps } from 'vue';
 
 //接口定义类型约束
 interface Item {
@@ -25,11 +23,10 @@ interface Item {
   area: string;
   type: string;
 }
-//接收父组件传递的数据
 
-
-const props = defineProps<{
-  items: Item[];
+// Define props with items array
+defineProps<{
+  items: Item[]
 }>();
 </script>
 

@@ -68,9 +68,9 @@
   import UserQuery from "../../components/AI/UserQuery.vue";
   import AIReply from "../../components/AI/AIReply.vue";
   import Start from "../../components/Assistant/Start.vue";
-  import { ref, onMounted } from "vue";
+  import { ref } from "vue";
   import getCozeData from "../../api/index";
-  import { showToast } from "vant";
+  // import { showToast } from "vant";
   
   type msgItem = {
     type: number; // 1:AI 2:用户

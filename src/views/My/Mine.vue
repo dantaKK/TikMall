@@ -33,8 +33,14 @@
          <div>
           <div class="absolute bottom-[2.3rem] right-[1rem]   ">
             <div class="login-register container text-right  ">
-          <van-button round type="success" color="#00BFFF" class="font-bold " size="small"
-            >&nbsp;&nbsp;一键登录&nbsp;&nbsp;</van-button>
+          <van-button 
+            round 
+            type="success" 
+            color="#00BFFF" 
+            class="font-bold" 
+            size="small" 
+            @click="$router.push({ name: 'Login' })"
+          >&nbsp;&nbsp;一键登录&nbsp;&nbsp;</van-button>
         </div>
           </div>
           </div>
