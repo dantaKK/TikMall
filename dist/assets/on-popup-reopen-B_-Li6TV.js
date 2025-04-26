@@ -1,0 +1,1 @@
+import{C as p,aC as n,aD as e,O as u}from"./index-D4Vk8HQL.js";function P(s,{args:t=[],done:o,canceled:i,error:f}){if(s){const a=s.apply(null,t);p(a)?a.then(l=>{l?o():i&&i()}).catch(f||n):a?o():i&&i()}else o()}const r=Symbol();function m(s){const t=e(r,null);t&&u(t,o=>{o&&s()})}export{P as c,m as o};

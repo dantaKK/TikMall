@@ -1,0 +1,1 @@
+import{x as s,ar as t}from"./index-D4Vk8HQL.js";function u(n){const e=t();e&&s(e.proxy,n)}let o=0;function a(){const n=t(),{name:e="unknown"}=(n==null?void 0:n.type)||{};return`${e}-${++o}`}export{u as a,a as u};
